@@ -1,8 +1,8 @@
 var express = require('express');
 var app =express();
-var htpps=require('http').Server(app);
+var htpp=require('http').Server(app);
 // usando socketio
-var io =require('socket.io')(https);
+var io =require('socket.io')(http);
 
 app.use(express.static(__dirname + '/public'));
 
